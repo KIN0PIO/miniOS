@@ -14,6 +14,7 @@ OBJS=$(SRCS:.c=.o)
 # Include directory
 INCLUDE_DIR=include
 
+# Define the 'all' target to build the 'minios' executable
 all: $(TARGET)
 
 $(TARGET): $(OBJS)
